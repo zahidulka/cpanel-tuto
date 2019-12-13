@@ -1,0 +1,25 @@
+
+site transfer by pluging
+*****************************************
+old site::www.zahidulka.xyz
+new site::www.zahidulka.xyz/newdomainsite
+
+most useful pluging /// All-in-One wp Migration // wp-clone // duplicators // upDraftPlus
+
+
+All-in-One wp Migration // Pluging
+--old and new site ::: install all-in-one Wp migraton
+--old export whole site and download
+--new import from file > upload
+--process > permalink > login with old Id/password
+--change the permalink to post name 
+--and visite the site for enjoying the clone done
+
+
+
+--1.Create new project folder // public_html/newdomainsite
+--2.Move wordpess All file and folder in //new project folder(newdomainsite)
+--3.create new Database ( cPanel > database > MySQL Database ) // note :: Databse username and password
+--4.install wordpress // www.zahidulka.xyz/newdomainsite/wp-admin/ 
+
+

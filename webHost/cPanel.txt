@@ -1,0 +1,177 @@
+/* To connect FTP server
+=============================*
+1 valid domin name or ip addess and usename, password port who has proveded domin and hosting proveders,
+2.then access cPanel, file manager,
+
+
+/*   cPanel domin tuto
+=================================*/
+1. Domin name forword or Redirect or url-forwording
+	old domin
+	http://zahidulka.yxz/cpanel
+	click Redirects from domin section
+	
+
+2. subdomin create.
+	www.google.com
+        mail.google.com
+  
+        go to > cPanel subdomains > create a subdomain "new subdomain" >
+              domain select by under the catagory
+
+3. addon domin
+
+4. dominemail forword to gmail
+
+5. Add Alies or parked domin in cpanel
+
+6. outlook email to gmail
+
+      outlook 2010
+      ======================
+      account settings>
+      email>
+      new>
+      email account > next > manually configer server setting > internet email
+      your name: Zahid ulka > 
+      email addess: contact@zahidulka.xyz
+      account type: POP3 >
+
+      for incoming mail server 
+      /*go to cpanel email section >*/
+      /*go to Email accounts >*/
+      /*go to Domin Email accounts >*/
+      /*go to connect divice >*/
+      /*user information
+             your name: Zahid ulka
+             email adress: contact@zahidulka.xyz
+
+      /*Non-SSL Settings (NOT Recommended)
+             
+             Incoming Server:	mail.zahidulka.xyz
+             IMAP Port: 143 POP3 Port: 110
+
+             Outgoing Server:	mail.zahidulka.xyz
+             SMTP Port: 587 */
+
+      /*login information
+             user name: contact@zahidulka.xyz
+             password: i&eJOUus{2uN
+      
+      /*More setting> outgoing server chack my outgoing server(SMPT) > 
+      /* Click > Advanced > incoming server(POP3) 110 > outgoing server(SMPT) 587 >
+                            encrypted connect (Auto)
+      /* Click Ok > then Next > then finish.
+	
+7. Website Verify by google webmester tools
+             1. gmail id: newulka2016@gmiil.com
+             2. hosting cpanel access information
+
+             google/webmasters/tools
+
+
+8. Add multiple user cpanel
+             RubelZ
+             zahidulka1990@zahidulka.xyz
+             zahidulka1990
+             }Da3]gVC0MjK
+
+
+
+9. google sitemap
+             collect all sitemap form 
+             https://www.xml-sitemaps.com/
+             submit all domin address in hear.
+             then .xml file download >
+             submit cPanel > file manager > public_html/ .xml file >
+             google console search > sitemaps > add new sitemap > http://zahidulka.xyz/sitemap.xml
+             submit > then finish   
+             
+
+
+10. changing cpanel contact information
+             go to capnel
+             click user preferences from top right >
+             contact information > form filds "new email"
+             then have not nothing change by default save.
+                          
+
+
+11. Email auto responder in capanel
+            go to capnel then >
+            email section > autoresponders >
+            Interval:> 12 hours
+            email : fileds only contact after '@' sign >
+            then > domain name > by default
+            form > username : zahidulka > Subject: thank you for reaching me..
+            Body: Thank you for reaching out, our..........
+            then click the create button
+
+
+
+12  Website backup in Cpanel
+          --site backup after launch site;
+          --site backup when new design complite after & before;
+          --Backup site after & before update cms software;
+          --we have should backup the site every week or month;
+
+          --go to hosting cpanel >
+          --then files > Backup wizard > backup > full backup > generate backup >
+            then comfirm by email or gmail; > go back to backup wizards >
+            then Download the backup files by date and times >
+            then keek any kind of safe folder in local PC
+
+            keep perfect and proper site backup as a raw backup files
+
+            /* ask top client koy mash agee ati vhalo cholchilo last date.
+            /* then request to hosting service provider for before last 2 weeks backup file by suppert team.
+   
+            
+12  Wordpress install in Cpanel;
+             firstly go to wordpress.org > download row file >
+             go to cpanel > file manager > public_html > then upload wordpress file
+             open wordpress folder and files > move to public_html or root directory.
+
+             ==create the database and database information
+             go to wordpress project folder
+             1. wp-config-simple.php >
+             2. cpanel > database > mySQL Database > create database > 
+                zahidulk_developers_portfolio //Database name must notedown....
+                
+                              database Name: zahidulk_developers_portfolio
+                              database user name : zahidulk_developers
+                MySQL Users   user name zahidulk_developers
+                Add New User  password: Oez~hjkG,i^O
+ 
+                Add User To Database: add > check "ALL PRIVILEGES" > make change
+                add to database information in wprdpress config file
+                        1.  select wp-config-sample.php > rename wp-config.php
+                            database input:- wp-config > edit > scripts > 
+                            
+                            define( 'DB_NAME', 'zahidulk_developers_portfolio' );
+                            define( 'DB_USER', 'zahidulk_developers' )
+                            define( 'DB_PASSWORD', 'Oez~hjkG,i^O' )
+                             
+                            to finish click save chaange.
+                        2. then......visite our site
+                               go to > http://zahidulka.xyz/web-developer/
+                                
+                                * site title : ZAHID WEB DEVELOPER
+                                * Username   : Z_developers
+                                * Password   : 6j890XkYFJsPauD7^p
+                                  then > click install wardpress
+                                go to > http://zahidulka.xyz/web-developer/wp-login.php
+
+             
+             
+             
+             
+
+
+
+
+
+
+
+1. domin addon
+2. file manager

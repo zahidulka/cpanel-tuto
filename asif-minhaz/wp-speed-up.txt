@@ -1,0 +1,278 @@
+
+
+Wordpress Website Speed By 85% - 5 Best PLUGINS
+***********************************************
+First check the website (Requered)
+
+http://www.gtmetrix.com //sqUHFpWJM7YrM%J
+
+
+
+
+
+perfomence result
+--page speed score
+--ySlow score
+
+
+page details
+--fully loaded time
+--total page size
+--request
+
+
+5 best wp-security pluging
+--wp3 total cache
+--wp smush pro
+--wp-optimize
+--wp hummingBird
+
+
+::analyis site speed
+*************************************************************************
+--https://gtmetrix.com
+--https://tools.pingdom.com
+--Lighthouse goole extention
+::waterfall catcher
+--https://webpagetest.org
+
+
+
+
+
+Speed Up WordPress Website - w3 Total Cache + WP Rocket Pro_CMBD-Big-WP-02  part -1
+***************************************************************************
+Precautions:
+--complate all the task of website? (If yes then proceed)
+--Do you take backup of the wp website (if yes , then proceed)_(useing all one wp miagration)
+--Do you take befores after screenshot of Gtmetrix.com and google page speed checker (if yes, then proceed)
+--take backup .htaccess
+
+
+
+Speed Up WordPress Website - w3 Total Cache + WP Rocket Pro_CMBD-Big-WP-02 _(Part-02)
+*************************************************************************************
+before optimize wordpress siete
+then submit site speed information of mobile or pc useing by 
+(https://developers.google.com/speed/pagespeed/insights/)
+
+--Backup whole wordpress site (all in one wp migration pluging)
+--Trash & remove all unnecessary pluging and Themes
+--Check speed the website by gtmetrix.com (from mail take api and use that- now check)
+--check google page speed (mobile and desktop)
+--for all site install wp3 total cache
+
+
+
+useing pluging
+*********************
+::wp3 total cache 01
+
+Browse-Cache, page-cache, Database-cache, object-cache
+--performence > general settings
+--all cache and page cache > enable
+--save all changes
+--Database cache > enable
+--save all changes
+--miscellaneous > disable google page speed
+--save
+
+
+:::performence 
+--performence > browser cache for general
+--check first 6 poients
+--set the last modified header
+--set expires header
+--set cache control header
+--set entity tag(etag)
+--wp-3 total cache header
+--enable HTT(gzip) compresstion
+--save all changes
+
+
+
+:::wp3 total cache 02
+*******************************
+:::performence >> general >> all cache checkmark > hit ("empty cache")
+general settings
+--page cache enable
+--save all changes
+--database cache enable >> save all changes
+--object cache enable >> save all changes
+--google page speed >> disable/uncheck >> save all changes
+
+--page cache
+--frist 6 option check mark
+
+--browser cache
+--check first 6 option
+
+--deugg moode is automatic performence
+--click plugins top bar
+--purge modiluos > page cache all(use a video)
+
+go to cpanel
+--file manager
+--website folder
+--settings > show all hidden file
+--edit .htaccess
+--download .htaccess
+why if site is broken pluging delete is not enough - 
+in that case you can upload the previous .htaccess file
+
+
+
+
+
+
+:::wp Rocket
+*******************************
+--wp rocket > topbar setting 
+--lezy load >
+--------------------------------------------
+--enable for images
+--enable iframes and videos
+--save all changes
+
+--mobile cache >
+--enable cacheing for mobile divice
+--separet cache for mobile divice
+--save changes
+
+--user cache
+--enable cacheing for logings for user 
+
+--SSL cache
+--enable cacheing for page with https://
+
+--Emoji cache : enable by default
+
+--Emberdded > 
+--disable
+--user cache enable
+--SSL cache enable
+--Emoji cache enable
+
+--lifespan 10 hours
+--save change
+
+
+:::wp Rocket > settings > 
+--static files
+--------------------------------------------
+--monify > html, css
+--combine > 
+--enable > google fonts, css
+--enable > remove query strigns restraction
+--save and change
+
+
+:::wp Rocket > settings > 
+--preload
+--------------------------------------------
+--enable active site map
+--preload bot enable/autonatic
+--save changes
+
+
+:::wp Rocket > from topbar panel
+--wp-rocket
+--clear cache
+--parge OPCache
+Must delete wp total cache pluging
+
+
+
+:::wp Rocket > settings > database
+--Backup your database before you ran a clean up, must for useing
+--cache clean up total
+--clear all clean\
+
+
+::All-in-one Wp migration Pluging Hacking
+******************************************
+file upload max size limite to unlimate
+--at Dashboard > pluging > editors > 
+--choose all-in-one wp migration
+--select
+--edit > constent.php
+--find > max file size
+--define('AIWM_MAX_FILE_SIZE', &infin >> 28 );
+
+
+
+
+
+:::Autooptimize - by by frank Goossens futta
+*********************************************
+settings > optimize > main
+
+--Check JS, CSS & HTML
+--Save changes
+--save changes and empty cache
+
+--settings > optimize > extra
+--goole font > combine and load fonts asynchonoursely with web font.js
+--check remove query string resource
+--save and changes
+
+--settings > optimize > images
+--check optimize on the fly and serve....
+--images quality >> glossy / lossy
+
+
+:::Autosync javascript- by by frank Goossens futta
+*********************************************
+::Autosync javascript > wizard
+--GTmetrix API key :
+--go to gtmetrix.com > login
+--anlysis site perfomence
+--collect > API key
+
+--Async javaScript
+--wizard
+--GTmetrix API key 
+--5.copy user name and API Key
+--do not change Location
+--proceed 2 step
+--apply settings > click 'no'
+--apply defer (jQuery Execluted )
+--save and changes
+
+:::Autosync javascript > Settings
+--enable async javascript
+--also enable async javascript for loging user
+--also enable async javascript for card / and check out page
+
+--async java script for pluging
+--pluging optimize
+--enable optimize suport
+--click defer > save changes
+
+go to autoptimize form top bar
+--delete cache
+p3 pluging profiler
+
+
+
+
+::smush image compression and optimization
+
+
+
+https://drive.google.com/open?id=12GYSLXYfcd6L_pzS8NDyjBEIuc_ADFIf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

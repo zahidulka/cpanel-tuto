@@ -1,0 +1,12 @@
+
+
+Auto Email  respond from capanel
+*********************************************************
+--go to capnel then >
+--email section > autoresponders >
+--Interval:> 12 hours
+--email : fileds only contact after '@' sign >
+--then > domain name > by default
+--form > username : zahidulka > Subject: thank you for reaching me..
+--Body: Thank you for reaching out, our..........
+--then click the create button

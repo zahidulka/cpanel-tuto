@@ -1,0 +1,43 @@
+
+
+	 SSL/TLS Status
+****************************************
+
+main domain
+------------
+go to  SSL/TLS Status
+--settings check all extentions
+--go to ssl / tls
+--Install and Manage SSL for your site (HTTPS)
+--Manage SSL sites.
+--select a Domain
+--all
+--autofill by subdomain
+--install certificate
+
+
+subdomain
+------------
+--go to ssl / tls
+--Install and Manage SSL for your site (HTTPS)
+--Manage SSL sites.
+--select +subdomain:www.
+--autofill by subdomain
+--install certificate
+
+
+
+encrypt SSL
+------------
+--go to encrypt SSL
+--show site for site
+--installing certificate to
+--check http://
+--then check
+
+--issues a new certificate
+--case the issues
+
+pluging 
+------------
+Really simple SSL

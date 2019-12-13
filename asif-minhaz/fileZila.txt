@@ -1,0 +1,37 @@
+FTP accounts create
+----------------------------------
+user name: z_zahid_ulka_u
+password : P;1DJ[SmdaJw
+
+z_zahid_ulka_u@310-modernizr.zahidulka.xyz
+
+
+imunify360
+********************************
+--log in cpanel
+--all files auto refresh
+--status check > all infacted cleaned /clean in progress
+--proactives defense > on kill mode..
+
+
+MODsecurity
+********************************
+--log in cpanel
+--CTRL+F : MODsecurity click on it
+--just enable > the domain name: status on
+
+
+
+FTP user and use
+********************************
+--go to cpanel
+--FTP acount
+--add FTP account
+--add user + doamin + password
+--create FTP account
+--configer FTP client
+--download FileZila > config xml file
+
+
+web disk
+********************************

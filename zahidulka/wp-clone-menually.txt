@@ -1,0 +1,102 @@
+manual clone by uploading file & database
+***********************************************
+
+old site( clone from ) zahidulka.xyz/newdomainsite
+new site( clone to) zahidulka.xyz/new_site_two
+
+
+1. Go to Old site
+-----------------------------------------------
+--cPanel > 
+--file manager
+--public_html
+--go to project folder (site folder)
+--Compress "newdomainsite"( zip ) // with right button click
+--Download Zip file ( from public_html // root directory )
+
+
+2. Name Check Old site's database
+------------------------------------------------
+--to know old site's database name:::
+--cPanel > file manager > newdomainsite > wp-config.php > edit > Check
+--define( 'DB_NAME', 'zahidulk_newdomain' );
+
+
+
+3. Download Old site's database
+-----------------------------------------------
+--go to cPanel
+--Database > PhpMyadmin >
+--go zahidulk_newdomain (table, action, row)
+--export
+--Quick - display only the minimal options
+--format > SQL
+--Click GO button
+
+
+
+4. Go to New site
+-----------------------------------------------
+--cPanel > file manager > public_html > new_site_two
+--upload zip file( from old site( newdomainsite ) to new site ( new_site_two ))
+--new_site_two > extract zip file
+--extractable 
+--files and folders move to new_site_two
+
+
+4. Go to New Database
+-----------------------------------------------
+--cPanel > database
+--MySQL database
+--create New database
+--new DB 'zahidulk_new_site_two'
+
+
+
+
+5. insert Database username and Password from new database to migrated ( new_site_two ) wp-config.php
+-------------------------------------------------------------------------------------
+--new_site_two/wp-config.php
+--insert new database's information // new_site_two/wp-config.php
+
+new database info
+--database name ::zahidulk_new_site_two
+--database username ::zahidulk_new_site_two
+--database password ::fh9(A#%7$%D* /// i;R*-hW99kOu
+
+--go to cPanel > file manager > public_html
+--go new_site_two > wp-config.php > edit with editor
+
+insert new database info
+--database username ::zahidulk_new_site_two
+--database password ::fh9(A#%7$%D*
+
+
+5. insert Database 
+----------------------------------------------------------
+--go to cPanel > database
+--phpmyadmin
+--select database
+--import
+--Choose file
+--Go
+
+
+6. Check Table prefix
+----------------------------------------------------------
+--cPanel > file manager > public_html > newdomainsite > wp-config.php > $table_prefix = 'wp_';
+--cPanel > file manager > public_html > new_site_two > wp-config.php > $table_prefix = 'wp_';
+--it should be as like same.
+
+
+
+7. url redirect
+-----------------------------------------------------------
+--go to cPanel > database
+--phpmyadmin >
+--go to Database > 
+--click zahidulk_new_site_two
+--wp-options
+--siteurl : /new_site_two
+--home    : /new_site_two
+

@@ -1,0 +1,64 @@
+﻿
+
+website submit to google console search by sitemap.xml
+******************************************************
+:::collect sitemap file
+--https://www.xml-sitemaps.com/
+--submit domin
+--download > sitemap.xml
+
+--go to cPanel
+--file manager
+--public_html
+--project folder
+--paste downloaded sitemap.xml file
+
+--go to google search console
+--select property type
+--www.example.com ///  domain/subdomain
+--continue
+
+--A new popup "verify domain ownership via DNS record"
+--copy DNS code record...
+
+--go to cPanel
+--domain > Zone editor > all domain
+--select spacific Domain > www.example.com
+--manage > + add record
+--add TXT record
+--name: domain name, TTL: 1200, TYpe: TXT, Record: paste DNS code from google search console
+--Click Add button
+
+
+             
+
+google console search URL prefix
+******************************************************
+--select property type
+--continue
+--new popup verify ownership
+--HTML tag
+--copy the meta tag
+
+--go to header.php from project file and folder
+--paste in head tag at top
+
+
+
+
+
+
+আপনি প্রথমে ডোমেন প্রোপার্টি ভেরিফাই করুন এবং পরে আপনার সাইটের লাইভ URL ভার্সনটি ইউআরএল প্রিফিক্স প্রোপার্টিতে এ্যাড করুন। এতে করে আপনি ছোট-খাটো যেসকল কাজ ডোমেন প্রোপার্টিতে করা সম্ভব হয় না, সেগুলি ইউআরএল প্রিফিক্স প্রোপার্টিতে করতে পারবেন।
+
+
+
+
+
+
+
+
+
+
+
+
+

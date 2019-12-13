@@ -1,0 +1,38 @@
+
+Wordpress login 
+***********************************
+--i don't know wordpress login details, user name and password
+--cpanel dashboard is the most essential recover to password
+
+--go to cpanle >
+--file manager
+--wp project folder
+
+collect database information
+---------------------------
+--wp project folder
+--wp-config.php // with edit
+--MySQL database name:: define( 'DB_NAME', 'zahidulk_developers_portfolio' );
+--MySQL database password:: define( 'DB_PASSWORD', 'Oez~hjkG,i^O' );
+
+Generate forgotten password
+---------------------------
+--go to cPanel
+--phpmyadmin
+--click database ::zahidulk_developers_portfolio >
+--wp_users
+--edit
+--user_login :: Z_developers
+--user_pass  :: function > md5 > go
+--collect password to notepad
+
+create backdoor password
+---------------------------
+--wp_users
+--copy
+--user_login :: Z_developers
+
+create backdoor password
+--user_pass  :: function > md5 > create new password
+--add new email > go
+--collect password and username from top bar

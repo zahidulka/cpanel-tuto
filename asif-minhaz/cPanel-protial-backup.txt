@@ -1,0 +1,151 @@
+
+
+
+    cPanel portial Backup and restore it when its hacked or crashed
+******************************************************************************
+               Backup and restore it when its hacked or crashed
+
+  go to cPanel >
+--Backup
+--Partial Backups
+--Download a Home Directory Backup
+--Download a MySQL Database Backup
+--Download Email Forwarders
+--Download Email Filters
+
+
+
+
+
+   Wordpress migrate from old domain to new domain
+******************************************************************************
+old site (clone form): zahidulka.xyz/web-developer
+new site (clone form): zahidulka.xyz/full-strack-webdeveloper
+
+folder database file database
+zip and download old site folder
+export old site database
+
+
+--public_html
+--site folder
+--select all files
+--do compress all file to zip and give a compress name
+
+
+--check the name of your old site's database form "zahidulka.xyz/web-developer"
+--go to public_html
+--site folder
+--web-developer
+--wp-config-.php
+--database name:- "zahidulk_developers_portfolio"
+
+go to cPanel
+--phpmyadmin
+--click the database that used for your site "zahidulka.xyz/web-developer"
+--click export at top
+--option Quick + SQL >> go site database will download
+
+--now go to cPanel
+--file manager
+--create a new folder
+--
+
+
+
+
+
+
+
+
+
+--go to cPanel
+--phpmyadmin
+--Database
+--zahidulka-developers-portfolio
+--export
+--Quick SQL >> go to be download zip folder
+
+create a new site
+--cPnael
+--file manager
+--piblic_html
+--create new folder > "full-strack-webdeveloper"
+
+--now create a new folder and then upload zip folder
+--go to cPanel
+--file manager
+--public_html
+--new site folder
+--upload old site as a zip
+--extract it and removre zip
+
+
+export database:
+--cPanel
+--mySQL database
+--open database
+--import
+--choose file
+--just go...
+
+chack table prefix
+--old and new
+--go to wp-config.php
+--chack $table_prefix = 'wp6i_';// this is same....
+
+and forwordig
+--phpnyadmin
+--click new dbname
+--wp6i_options
+--edit siteurl and home by dubble click
+--new domain or site name
+--
+
+
+
+
+--create new database
+--mysqldatabase
+--create new database
+--create database
+--go back
+
+create mySQL Users
+--database Name: zahidulk_fullstack
+--username: zahidulk-fullstrack
+--password: {-DRvduQ)azf
+
+--Add User To Database
+--user: zahidulk-fullstrack
+--Database :zahidulk-fullstrack
+--check all ALL PRIVILEGES
+--save
+
+
+
+
+wp-config.php
+change Database information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

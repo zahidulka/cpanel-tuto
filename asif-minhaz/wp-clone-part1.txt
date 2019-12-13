@@ -1,0 +1,201 @@
+
+site transfer by pluging
+*****************************************
+old site::www.zahidulka.xyz
+new site::www.zahidulka.xyz/newdomainsite
+
+most useful pluging /// All-in-One wp Migration // wp-clone // duplicators // upDraftPlus
+
+
+All-in-One wp Migration // Pluging
+--old and new site ::: install all-in-one Wp migraton
+--old export whole site and download
+--new import from file > upload
+--process > permalink > login with old Id/password
+--change the permalink to post name 
+--and visite the site for enjoying the clone done
+
+
+
+--1.Create new project folder // public_html/newdomainsite
+--2.Move wordpess All file and folder in //new project folder(newdomainsite)
+--3.create new Database ( cPanel > database > MySQL Database ) // note :: Databse username and password
+--4.install wordpress // www.zahidulka.xyz/newdomainsite/wp-admin/ 
+
+
+
+
+
+
+manual clone by uploading file & database
+***********************************************
+
+old site( clone from ) zahidulka.xyz/newdomainsite
+new site( clone to) zahidulka.xyz/new_site_two
+
+
+1. Go to Old site
+-----------------------------------------------
+--cPanel > 
+--file manager
+--public_html
+--go to project folder (site folder)
+--Compress "newdomainsite"( zip ) // with right button click
+--Download Zip file ( from public_html // root directory )
+
+
+2. Name Check Old site's database
+------------------------------------------------
+--to know old site's database name:::
+--cPanel > file manager > newdomainsite > wp-config.php > edit > Check
+--define( 'DB_NAME', 'zahidulk_newdomain' );
+
+
+
+3. Download Old site's database
+-----------------------------------------------
+--go to cPanel
+--Database > PhpMyadmin >
+--go zahidulk_newdomain (table, action, row)
+--export
+--Quick - display only the minimal options
+--format > SQL
+--Click GO button
+
+
+
+4. Go to New site
+-----------------------------------------------
+--cPanel > file manager > public_html > new_site_two
+--upload zip file( from old site( newdomainsite ) to new site ( new_site_two ))
+--new_site_two > extract zip file
+--extractable 
+--files and folders move to new_site_two
+
+
+4. Go to New Database
+-----------------------------------------------
+--cPanel > database
+--MySQL database
+--create New database
+--new DB 'zahidulk_new_site_two'
+
+
+
+
+5. insert Database username and Password from new database to migrated ( new_site_two ) wp-config.php
+-------------------------------------------------------------------------------------
+--new_site_two/wp-config.php
+--insert new database's information // new_site_two/wp-config.php
+
+new database info
+--database name ::zahidulk_new_site_two
+--database username ::zahidulk_new_site_two
+--database password ::fh9(A#%7$%D* /// i;R*-hW99kOu
+
+--go to cPanel > file manager > public_html
+--go new_site_two > wp-config.php > edit with editor
+
+insert new database info
+--database username ::zahidulk_new_site_two
+--database password ::fh9(A#%7$%D*
+
+
+5. insert Database 
+----------------------------------------------------------
+--go to cPanel > database
+--phpmyadmin
+--select database
+--import
+--Choose file
+--Go
+
+
+6. Check Table prefix
+----------------------------------------------------------
+--cPanel > file manager > public_html > newdomainsite > wp-config.php > $table_prefix = 'wp_';
+--cPanel > file manager > public_html > new_site_two > wp-config.php > $table_prefix = 'wp_';
+--it should be as like same.
+
+
+
+7. url redirect
+-----------------------------------------------------------
+--go to cPanel > database
+--phpmyadmin >
+--go to Database > 
+--click zahidulk_new_site_two
+--wp-options
+--siteurl : /new_site_two
+--home    : /new_site_two
+
+
+
+
+
+
+
+
+database user name:: zahidulk_new_site_two
+password ::fh9(A#%7$%D*
+
+
+
+
+
+
+
+
+create New site
+***************************
+--go to cPanel
+--file manager
+--public_html >
+--create new project folder > insart wp compress (zip file)
+--extract and move whole wordpress site in (new project folder)
+
+
+
+
+
+
+/*
+1. Update .htaccess file
+
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+*/
+
+/*
+2. Update wp-config.php file
+
+@ini_set( 'upload_max_filesize' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'memory_limit', '256M' );
+@ini_set( 'max_execution_time', '300' );
+@ini_set( 'max_input_time', '300' );
+
+*/
+
+
+new database name:: zahidulk_newdomain
+
+
+MySQL Users
+Add New User
+mysql user name:: zahidulk_newdomain
+
+Add New User and create database
+
+mysql user name: zahidulk_newdomain
+password : Gq.AEv9Pq9sQ
+
+
+wordpress
+*******************
+user name: New_user_zahid
+password : 6j890XkYFJsPauD7^p

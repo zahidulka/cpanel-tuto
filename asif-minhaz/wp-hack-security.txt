@@ -1,0 +1,286 @@
+
+
+/*	Wordpress security Advanced-1
+
+***************************************************/
+1. --hide login panel......
+2. --redirecting log out...
+3. --mobile authentication by OTP autentication Apps
+4. --Check virus Before install theme and pluging
+
+
+
+
+
+
+
+
+/*  loging panel hide
+========================================*/
+pluging.... wps hide login > pluging setteings > loging url > / custom name
+http://zahidulka.xyz/web-developer/rubel
+
+
+wps hide login
+============================
+1. resurection tab -1;
+------------------------
+--resurection by user rules
+--admin > default/ normal /behaveor
+--editor/contrebutor/ author/ subscribor// > all disabled
+--default ban time
+
+
+2. settings ban rules
+--maximum number of failed loging attampt before ban: 5min
+--default ban time > 1 day.
+--band users > can'nt access whole site :: mas :: yur are banned
+--settings captha settings > enabled
+--settings logout > redirecting url logout > https://wwww.habijavi.com
+
+
+
+/  Mobile Authentication
+========================================*/
+go to google paly store >
+--free OTP Authenticator
+--wordpress dashboard > users > profile
+--scanner > open and wait >
+--go to OTP app > right corner > scan bar code
+--App ganarate secret code > one time password >
+
+--go to wp-OTP security pluging
+--Manuelly::
+--add token >
+--email > password > security code
+
+
+
+
+iTheme security pro Pluging
+============================
+--iTheme security pro > settings >
+--Database Backup > configer > create database full backup
+--Backup method > choose ( save locally and email )
+--Trick and Check > compress backup file > zip database backup
+--Check and enable > schedhuel database backup
+--Backup interval > 30 dayes > save setteings
+
+
+--Band users 
+--iTheme security pro > settings >
+--ban users > configer settings > enable > ban user
+--Ban Hosts > put ip and save.
+--Ban list > enable
+--SSL > enable
+
+
+--wordpress sults
+--iTheme security pro > settings >
+--enable wordpress sult( it will disable multiple password trying option by pnishing )
+
+
+
+
+  	Wordfence
+============================
+wordFence::
+--go to wordFence dashboard >
+--click here in configure >
+--Download > htaccess
+--installation done.
+--safe the download file >
+
+--web application firewell status > enable and protect
+--real time IP blocklist > enabled
+--Advenced firewell > enable delay ip and secury blocking > save
+--Scan virus
+
+
+
+	securi security
+========================================*/
+securi security use for malwere
+
+--go to pluging
+--ganarate API key
+--agery chack
+--wp file manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  website speed
+========================================*/
+https://www.gtmetrix.com >
+insart website domain >
+
+  performence scores >
+--pagespeed scor:: A( 93% )^
+--Yslow Scor    :: B( 88% )^ 
+   
+  Pages Details >
+--fully loaded time :: 2.7^
+--total page size   :: 187kb^
+--request           :: 20^ attacting point
+
+
+/*  Wordpress optimization
+========================================*/
+--speed
+--SEO
+--Speedup
+
+
+
+
+/*  Wordpress 2 step varification
+========================================*/
+--Auto backup weekly to @mail
+--Hide loging page
+--Redirecting logout
+--User Role
+--Ban Ip
+--Hacking/Pnishing protection (multi lavel Loging attempt)
+--Malware Protected
+--Firewell enable
+
+
+
+
+
+
+Check virus Before install theme and pluging
+============================================
+--https://virusscan.jotti.org/
+--https://virustotal.com/
+--https://transparencyreport.google.com/safe-browsing/search
+
+
+
+
+virus that is harmful
+=====================
+--Trojan
+--Backdoor
+--Malware
+
+
+
+
+Security checklist
+======================
+Ganarel------------
+--site free for malware
+--site not listed on blacklist
+--google transperancy report clear
+--Database free of malware and spam
+--no suspicious logins
+--no successfull malware accesses
+--Adequate log files abailable
+--no public phpinfo files
+--site content not at risk for blacklist
+
+
+
+hosting issues------
+--Backups beign stored
+--site is hosted in its own space
+--Linux hosting
+--No web server security issues
+
+
+
+Wordfence-----------
+--wordfence installed and configered correctly
+--wordfence firewell configured correctly
+--wordfence scanning all files
+--wordfence admin email address entered
+
+
+
+
+/*	Wordpress security Advanced-2
+
+***************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Brower speed performence
+==============================
+--control+alt+Delete >
+--Task Manager >
+--"File" at top left >
+--Run new task >
+--type > cdm >
+ok
+
+
+
+--netsh int tcp show global 
+--netsh int tcp chirmney=enabled 
+--netsh int tcp set global autotuninglevel=normal 
+--netsh int set global congestionprovider=ctcp 
+
+--ip config/flushdns 
+
+--netsh int ip reset c\resetlog.txt 
+--ipconfig 
+
+--ping =t 192.168.0.1 
+
+
+
+
+
+
+
+**************************
+jetpack pluging
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

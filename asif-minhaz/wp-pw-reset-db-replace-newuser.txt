@@ -1,0 +1,109 @@
+
+
+Reset wordpress password_Delete user and database 
+and replace with new user and DB(Export/Import DB)
+**********************************************
+new user add/passwprd reset
+--note Database information by wp-config.php
+
+--phpmyadmin
+--database
+--wpi_users
+--copy/duplicate for add user
+--change user_login
+--function > md5
+--password
+--nick name:
+--change email
+--admin name: zahidulka
+--go > for duplecate
+
+
+
+
+
+
+
+Access 1;
+
+user name: z_modern_r
+password: iuL7&X2$&2
+          
+
+db: zahidulk_310
+
+
+Table Prefix
+wpts_3610
+
+
+https://zahidulka.xyz/310-modernizer
+
+Administrative URL : 
+https://zahidulka.xyz/310-modernizer/wp-admin/
+
+
+
+Access two: 
+z_modern_zahid
+232426zahid
+nick name: rubel
+
+
+ueser password change
+--click edit option
+--user_pass md5 >
+--go
+binary password
+$P$BkEiYvwhZ4HF/.bEcSHj1jUSaEmk93/
+
+
+if database stack
+-------------------
+--export
+--download
+--new database create
+--inport database
+
+
+create web disk
+-------------------
+--cpanel > home > files > web disk
+--create new user to limite access cpanel files and database
+
+--create additional web disk account
+--choose user name multi & password
+--limite access public_html/folder(auto pipolated based user name)
+--permations read write or only read
+--enable digest authentication > check > then go back
+
+
+Manage additional web disk account
+------------------------------------
+--click edit icon to change account's assigned directory  if needed change location for access
+--click icon to change the directory privacy interface 
+--configer client access by android and ios access
+
+
+webdisk account
+------------------------------
+user name: zahid_webdisk
+password : zahid232426
+configer client access
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

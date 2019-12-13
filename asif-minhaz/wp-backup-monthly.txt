@@ -1,0 +1,10 @@
+
+wordpress backup - monthly by softaculus app
+******************************************************
+softculus app installer > Ganeral setup > wordpress
+
+--cPanel > softculus app > 
+--install wordpress > 
+
+--software setup > choose installation URL directory > indirectory (new folder )
+--

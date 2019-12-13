@@ -1,0 +1,40 @@
+
+
+new user add from cpanel and dashboard with user restraction
+************************************************************
+wp password change
+
+cpanel access:
+--------------
+--zahidulka/xyz/cpanel /2082 /
+
+
+
+
+
+wordpress dashboard access
+--------------------------
+--zahidulka.xyz/wp-admin
+--zahidulka.xyz/wp-login.php
+--zahidulka.xyz/dashboard
+
+
+wordpress password reset
+--------------------------
+cpanel > file manager >public_html > wordpress folder/subfolder wp-config.php
+--edit
+
+
+database and user info
+--wp-config.php
+--DB_NAME 'zahidulk_310'
+--DB_USER 'zahidulk_310'
+--DB_PASS 'Htp[663)S4'
+
+now i will go to phpmyadmin
+--phpmyadmin
+--click > 'zahidulk_310'
+--click > wpts_3610users
+--click edit
+--change user name
+--chaange password but md5 requred

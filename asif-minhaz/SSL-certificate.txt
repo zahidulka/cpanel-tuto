@@ -1,0 +1,14 @@
+
+
+Install SSL Free(Save Client's $29) By cPanel "SSL Status(Auto SSL)" & "Really Simple SSL" Plugin
+******************************************************************************************
+SSL configer
+
+go to cPanel >
+--SSL/TLS status
+--domain type
+--check all from settings
+
+Showing 12 of 12 domains
+select domain all
+run auto SSL selection

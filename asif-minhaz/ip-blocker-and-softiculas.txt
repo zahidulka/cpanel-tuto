@@ -1,0 +1,38 @@
+
+**********************************************
+	cPanel security
+
+--IP blocker
+--imunify360
+
+
+web dask
+*********************************************
+--create new user to limite access of cPanel files and database
+--choose user name and password...
+--limite access domain freom dropdown choose domain / subdomain whole access
+--permission read & write -- only read
+--anable digest authentication > tick
+--create
+
+ip blocker
+*********************************************
+to block user or range of user
+
+--security ip blocker
+--put the single ip you want block ip at "ip adress or domain box ex: 10.1.0.130"
+--for range put ex: 192.168.0.1.192.168.0.40 (country region block)
+--add
+
+
+
+softaculus app installer and backup 
+*********************************************
+--manage backup locationgn
+--add backup lacation /google drive/Dropbox/FTP cPanel
+
+server ip banip
+------------------
+ask service hosting provider to unblock
+baned ip
+

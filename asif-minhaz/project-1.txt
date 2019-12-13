@@ -1,0 +1,9 @@
+
+https://themes.muffingroup.com/be/splash/
+*************************************************
+--if buyer given only doc file (including logo, text, images, and icon, )
+--beTheme options (Redux Freamework) 
+--Header, General info, color, footer, copyright, Background, logo menu design
+--customize site - site indentity, fooer wizerd
+--edit page edit body part, body content
+

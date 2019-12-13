@@ -1,0 +1,17 @@
+
+	donmain hosting issues
+*****************************************
+--http://www.whois.net
+
+
+
+
+	configer domain and hosting
+*****************************************
+--DNS or name server
+--configer name server
+
+--for name server
+--go to name server and hosting
+--hosting > server confger
+--copy name server

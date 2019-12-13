@@ -1,0 +1,27 @@
+
+	Softaculuas wordpress installs
+***********************************************
+ go to cPanel
+--softaculaous app installer
+--wordpress install
+--install
+--Choose the version you want to install >> 
+--Choose Installation URL
+--click Dropdown > for subdomain
+--SSL certificate http:// or https://, http://wwww., https://www.
+--in derectory > empty
+--install >
+
+
+in folder
+-------------------------------------------
+go to cPanel
+--softaculaous app installer
+--wordpress install
+--install
+--Choose the version you want to install >> 
+--Choose Installation URL
+--click Dropdown > for subdomain
+--SSL certificate http:// or https://, http://wwww., https://www.
+--in derectory > folder
+--install >

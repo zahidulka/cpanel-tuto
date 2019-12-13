@@ -1,0 +1,16 @@
+
+
+	Gravity Form
+***************************************
+--Gravity Form install
+--Gravity settings > Genaral
+--output CSS > yes
+--output HTML5 > no
+--No conflict file > off
+--Currency > select
+--Background Updates > off
+--Toolbar Menu > on
+
+--Ready Gravety form ready Class
+
+1.https://www.youtube.com/watch?v=VNt_QKIC83U // english

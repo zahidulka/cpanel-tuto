@@ -1,0 +1,208 @@
+
+SPEEDUP WORDPRESS - wp rocket - auto optimize - async javascript - lighthouse
+*****************************************************************************
+
+Whole site information result submit to client
+------------------------------------------------
+--https://www.gtmetrix.com >
+--sign up and use API key
+
+--https://developers.google.com/speed/pagespeed/insights/
+--LightHouse Google chrome Extention
+--pingdom > https://tools.pingdom.com
+--waterfall cacher > https://webpagetest.org
+
+
+
+
+
+
+:::Backup the Whole Wordpress site Before Speedup configer
+:::Take snapshot speed test Before Speedup configer
+:::Backup .htaccess
+:::google map, and Video, is bad for website fast loading
+
+
+:::wp Rocket
+*******************************
+--wp rocket > topbar setting 
+--lezy load >
+--------------------------------------------
+--enable for images
+--enable iframes and videos
+--save all changes
+
+--mobile cache >
+--enable cacheing for mobile divice
+--separet cache for mobile divice
+--save changes
+
+--user cache
+--enable cacheing for logings for user 
+
+--SSL cache
+--enable cacheing for page with https://
+
+--Emoji cache : enable by default
+
+--Emberdded > 
+--disable
+--user cache enable
+--SSL cache enable
+--Emoji cache enable
+
+--lifespan 10 hours
+--save change
+
+
+:::wp Rocket > settings > static files
+--static files
+--------------------------------------------
+--monify > html, css
+--combine > 
+--enable > google fonts, css
+--enable > remove query strigns restraction
+--save and change
+
+
+:::wp Rocket > settings > preload
+--preload
+--------------------------------------------
+--enable active site map
+--preload bot enable/autonatic
+--save changes
+
+
+:::wp Rocket > from topbar panel
+--wp-rocket
+--clear cache
+--parge OPCache
+Must delete wp total cache pluging
+
+
+:::wordpress dashboard configer
+--------------------------------------------
+--All post, all comment > delete all post > delete all trash
+
+
+
+:::WP File Manager
+--------------------------------------------
+--.htaccess > open with editors
+--1. first four line by default
+--2. then all codeline is wp-Rocket's
+--3. if anyhow site has broken then >
+--4. clear all codeline
+--5. paste 4 codeline by default
+
+
+
+
+:::Autoptimize - By By Frank Goossens (Futtta) - Free Pluging
+--------------------------------------------
+--1. install Autoptimize
+--Autoptimize >
+--Check js
+--Check CSS
+--Check HTML
+--save changes > save changes and empty cache
+
+
+--2. Autoptimize > Extra
+--google fonts > combine and load fonts asynchronously with webfonts.js
+--Remove Query strings from static resourese > check remove query strings(  )...
+--save and change
+
+
+--3. Autoptimize > images
+--optimize images > check optimize images on the fly and save them......
+--images optimize quality > Lossy
+--save and changes
+
+--4. Autoptimize >
+--Go to bar Autoptimize
+--Delete cache
+
+--5. wp Rocket >
+--clear cache
+
+::: Result Has been destroy.......
+
+:::Recovery
+------------------------------------------------------------------------------
+Must See site status
+
+--optimize js code > if broken then ( remove tick )
+--Remove Query strings from static resourese > if broken then ( remove tick )
+--images optimize quality > Lossy > if broken then ( choose GLOSSY or LOSS LESS )
+
+
+
+
+
+
+:::Async JavaScript
+--------------------------------------------
+Process to step 1
+
+--Async JavaScript > Wizard
+--GTmetix API key: username : newulka2016@gmail.com, password: dsfsfs
+--Process to step 2 > observation then
+--Process to step 3 >
+--step 4: Apply Settings > is your site still functioning > click Yes
+--Apply settings 
+
+
+--Async JavaScript > settings
+--enable Async JavaScript
+--enable Async JavaScript
+--enable Async JavaScript for loging and user
+--enable Async JavaScript o cart/checkout page
+--Pluging optimization > enable optimization support
+
+--Testing Site... ( select best among Async or Defer )
+--step 3: result and Recommendtion >
+--processed step 4: Apply settings
+
+--Async JavaScript > settings > enable javaScript
+--enable Async JavaScript
+--enable Async JavaScript
+--enable Async JavaScript
+--enable optimize support
+
+--Async JavaScript > settings > Quick Settings
+--Apply Async
+
+--Async JavaScript > settings > Async Method
+--Async
+
+--Async JavaScript > settings > jQuery
+--Async
+
+--jquery method: defer/async which is better ? apply that one
+--save and changes
+
+--Async JavaScript for pluging optimize
+--plunging Autoptimize > tick anable optimize support > jQurey Method : enable > async
+--save Changes
+
+
+
+:::P3 Pluging Profiler
+--------------------------------------------
+--install p3 pluging profiler
+--click scan > auto scan > viwe result
+--run by pluging
+
+
+
+
+
+
+
+
+
+
+
+
+

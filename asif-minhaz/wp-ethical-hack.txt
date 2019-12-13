@@ -1,0 +1,168 @@
+
+******************************************************************
+     wordpress theme and pluging Ethical hacking 
+******************************************************************
+Whatwpthemeisthat
+https://whatwpthemeisthat.com
+Knows About all theme
+
+https://www.youtube.com/playlist?list=PLvfhcWty9XnApDoNeYokQGQ_RJf2UiVtq
+
+
+
+
+
+	Use for WOrdpress Developer ( wp-config.php )
+******************************************************
+1. all update disabled > wp-config.php > add to bottom //it should not use it.
+   define ( 'AUTOMATIC_UPDATER_DISABLED', true );
+    
+
+2. all Pluging update disabled > wp-config.php add to bottom
+   add_filer( 'auto_update_pluging', '__returns_false' );
+
+3. all Pluging update disabled > wp-config.php add to bottom
+   add_filer( 'auto_update_theme', '__returns_false' );
+
+4. core update, keep should it
+   define ( 'WP_AUTO_UPDATE_CORE', false );
+   define ( 'WP_AUTO_UPDATE_CORE', minor );
+
+
+
+
+
+
+
+	Some Que for HACKING pluging and theme
+*****************************************************
+--class/include
+--js or ajex
+--js or ajex > find
+--alart shown via fontend (html) then copy and past the code
+--edit the file and find the word...
+
+
+
+
+
+	Use for WOrdpress Font-end Developer
+******************************************************
+1. install pluging >
+    Easy Update Manager
+    
+    ** Disable all update > enable
+    ** Automatic updates > custom
+    ** Major Relese > disable
+    ** Minor Relese > Enable
+    ** Development updates > disable
+    ** Translation updates > disable
+    ** Automatic pluging updates > select idividually 
+    ** Automatic Theme updates > select idividually
+    ** Logs > disable
+    ** core notification e-mail > enable & add en email adress to get notify,
+    ** wordpress core updates > disable
+    ** wordpress pluging updates > enable (if disable - automatic pauging update will be disable )
+    ** wordpress Theme updates > enable (if disable - automatic theme update will be disable )
+    ** wordpress traslation updates > enable (if disable - automatic translation update will be disable )
+    ** browse nag > disable
+    ** wordpress virsion in fotter > disable
+    for email notifation use it
+
+
+	client Soluttions
+******************************************************
+    go to Dashboard > appearance > editor > style.css
+                    then change Theme Name:
+            or
+     cpanel > public_html > project folder > root directory > wp-content > theme > theme folder > style.css
+           edit theme name; 
+            version : change then finish
+    
+
+
+KryGard, License, keyproduct,  Hacking part 02
+===============================================
+1. Licence Disable or Null
+     go to theme folder > assat data > theme dashboard ( ajex conroler ) > classes > product > licenseManager.php
+                       adit with, text editor
+
+
+if(empty ( $this => lincese_data)){                           
+        return true;
+                            
+    }
+    if( in_array( self::ALL_TAG, $this=> license_data) ){
+        return true;
+
+    }
+    if( null === $item ){
+        return true;
+
+    }
+   
+
+
+
+
+
+
+   pluging Creck and version control
+=======================================
+*********edit pluging code************
+
+  go to wordpress dashboard > 
+      pluging editor > then spacafic pluging name >
+      then js or php file > pluging inactive prodect code, search function queary 
+      
+
+
+
+*** go to pluging editor
+=========================
+ spacific pluging > select
+/*
+pluging Name : change;
+version : xxxx;
+author URI: change;
+all are change;
+
+*/
+pluging Packge with notepad++
+
+
+
+
+
+/*  Wordpress theme information
+=============================================*/
+google charome > addon extentions > whatRuns;
+
+go to > https://wpthemedetector.com
+
+        https://whatwpthemeisthat.com
+
+*** wodpress scan > hackerstargets.com/wordpress-security-scan
+    collect website report > submit report
+
+
+
+1. change screen shot.
+2. hackertarget.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

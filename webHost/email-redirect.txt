@@ -1,0 +1,114 @@
+Domain-mail forword to outlook redirection
+*******************************************************
+outlook 2010
+-------------------------------------------------------
+
+--go to outlook account settings
+--email > new
+--email account > next
+--manually configer server setting > internet email
+--your name: Zahid ulka >   
+--email addess: contact@zahidulka.xyz    
+--account type: POP3 >  
+
+cPanel settings
+-------------------------------------------------------     
+for incoming mail server
+--go to cpanel email section
+--go to Email accounts
+--go to Domin Email accounts >
+--go to connect divice >
+--user information
+--your name: Zahid ulka
+--email adress: contact@zahidulka.xyz
+
+
+Non-SSL Settings (NOT Recommended)
+-------------------------------------------------------
+--Incoming Server:  mail.zahidulka.xyz
+--IMAP Port: 143 POP3 Port: 110
+--Outgoing Server: mail.zahidulka.xyz
+--SMTP Port: 587
+--login information
+--user name: contact@zahidulka.xyz
+--password: i&eJOUus{2uN
+
+More setting> outgoing server chack my outgoing server(SMPT) > 
+--Click > Advanced > incoming server(POP3) 110 > outgoing server(SMPT) 587 >
+--encrypted connect (Auto)
+--Click Ok > then Next > then finish.
+
+
+Domain-mail forword to Gmail redirection
+*******************************************************
+go to cPanel >
+--------------
+--email
+--forwords
+--domain Name select form managing
+--Add forword
+--Address to forword > contact@zahidulka.xyz (domain mail address)
+
+--Destination > 
+--forword to email address > newulka2016@gmail.com( personal gmail address )
+--Add forworder
+
+go to Gmail >
+-------------
+--click gear button( settings icon )
+--settings
+--accounts and input
+--send mail as > add another email addess
+
+--new popup > add another email address you own
+--Name (web site name)
+--email addess > (domain mail address)
+--click next step
+
+one more new popup for SMTP server >
+--now go to cPanel > email
+--scroll down for all creation 'email accounts'
+--setup mail client (spacific web mail)
+
+--secure SSL/TLS settings (Recomanded) >
+--outgoing server > 
+--copy outgoing server (mail.zahidulka.xyz)
+--copy username: contact@zahidulka.xyz
+--copy SMTP port: 465
+
+--past to gmail SMTP server (mail.zahidulka.xyz) //new popup
+--past to gmail SMTP server username: contact@zahidulka.xyz
+--past to gmail SMTP server password: cont********.xyz
+--click add account button
+--verify by confirmation code (check gmail)
+--successfully verifyed
+
+--click gmail compose button
+--select and click web mail by from option
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
